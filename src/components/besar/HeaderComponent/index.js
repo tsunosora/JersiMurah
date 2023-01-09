@@ -1,7 +1,7 @@
 import {Text, StyleSheet, View, TextInput} from 'react-native';
 import React, {Component} from 'react';
 import { IconCari, IconChart } from '../../../assets'
-import {colors, responsiveheight} from '../../../utils';
+import {colors, fonts, responsiveheight} from '../../../utils';
 import {Jarak, Tombol} from '../../kecil';
 
 export default class HeaderComponent extends Component {
@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
   },
   input: {
     fontSize: 16,
+    fontFamily: fonts.primary.light,
     
   },
 });
